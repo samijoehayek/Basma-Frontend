@@ -31,3 +31,18 @@ body {
     text-wrap: balance;
   }
 }
+
+@font-face {
+  font-family: 'Santricool';
+  src: url('/Santricool.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Modena';
+  src: url('/Modena-Prestige.ttf') format('opentype');
+}
+
+@font-face {
+  font-family: 'AlbertFont';
+  src: url('/FSAlbertArabic-Bold.ttf') format('truetype');
+}
