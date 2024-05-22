@@ -4,12 +4,34 @@ const HeroLogo = () => {
   return (
     <div
       style={{
-        fontFamily: "Modena",
-        fontSize: "48px", // Adjust the font size to your desired value
-        textAlign: "center", // Center the logo horizontally
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        textAlign: "center",
       }}
     >
-      Basma
+      <div
+        style={{
+          fontFamily: "Modena",
+          fontSize: "208px",
+          color: "#000000",
+          marginBottom: "32px", // Add margin bottom for spacing
+        }}
+      >
+        Basma
+      </div>
+      <div
+        style={{
+          fontFamily: "AlbertFont",
+          fontSize: "18px",
+          color: "#000000",
+        }}
+      >
+        <div>Modern and Elegant</div>
+        <div>Luxury and Comfort Awaits</div>
+        <div>Find the Perfect Stay</div>
+      </div>
     </div>
   );
 };
